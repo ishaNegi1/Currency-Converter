@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #88CA5E;
+}
+.h1{
+    font-family: 'Lobster', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+label[for="amt"]{
+    font-size: 20px;
+    margin-left: 12px;
+}
+#amt{
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.box{
+    height: 350px;
+    width: 420px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.country{
+    height: 60px;
+    width: 140px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.convertedCurr{
+    height: 40px;
+    width: 260px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#result{
+    font-weight: 620;
+}
